@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Tailor</string>
+
+    <string name="Terms_and_Conditions"><u>Terms and Conditions</u>.</string>
+    <string name="otp">We have sent a 6 digit OTP on</string>
+    <string name="grow">Grow\n Your Business</string>
+    <string name="loginbuss_activity">WE WILL HELP YOU TO GROW YOUR BUSINESS USING ONLINE SERVICES!</string>
+
+
+    <!--    <string name="title_activity_main2">Main2Activity</string>-->
+    <!--    <string name="title_home">Home</string>-->
+    <!--    <string name="title_dashboard">Dashboard</string>-->
+    <!--    <string name="title_notifications">Notifications</string>-->
+    <!--    <string name="title_activity_bottom_nav">BottomNavActivity</string>-->
+</resources>

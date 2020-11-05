@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/boylist"
+        android:title="Boys List"
+        android:visible="true" />
+    <item
+        android:id="@+id/girllist"
+        android:title="Girls List"
+        android:visible="true" />
+    <item
+        android:id="@+id/schoollist"
+        android:title="School List"
+        android:visible="true" />
+    <item
+        android:id="@+id/dramalist"
+        android:title="Drama List"
+        android:visible="true" />
+</menu>

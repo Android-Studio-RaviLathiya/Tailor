@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mytailor">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".MyPrefrence"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SettingActivity.EditAccountMobile"></activity>
+        <activity android:name=".SettingActivity.NewbusinessStart.ShopAddressDetail" />
+        <activity android:name=".AppIntro" />
+        <activity android:name=".SettingActivity.NewbusinessStart.TailorType" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EditActivity.EditPasnalDetail" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EditActivity.EditContectDetail" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EditActivity.EditImgDetail" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EditActivity.EditOtherBranchDetail" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EditActivity.EditShopAddDetail" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EditActivity.EditShopDetail" />
+        <activity android:name=".SettingActivity.VesoneActivity" />
+        <activity android:name=".SettingActivity.PrivetPoliceActivity" />
+        <activity android:name=".SettingActivity.PushNotificationActivity" />
+        <activity android:name=".SettingActivity.MyMap.ShowMapActivity" />
+        <activity android:name=".SettingActivity.MyMap.FemaleMapActivity" />
+        <activity android:name=".SettingActivity.MyMap.MaleMapActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".SettingActivity.NewbusinessStart.GrowBuss" />
+        <activity android:name=".SettingActivity.NewbusinessStart.BusinessProfile" />
+        <activity android:name=".OtpLoging.OtpSendActivity" />
+        <activity android:name=".SettingActivity.MyMap.MyMapActivity" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EditImage" />
+        <activity android:name=".SettingActivity.SettingActivity" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".SettingActivity.NewbusinessStart.ShopDetail" />
+        <activity android:name=".SettingActivity.NewbusinessStart.ContectDetail" />
+        <activity android:name=".SettingActivity.NewbusinessStart.PasnalDetail" />
+        <activity android:name=".SettingActivity.UpdatePassActivity" />
+        <activity android:name=".Activity.WelcomeActivity" />
+        <activity android:name=".SettingActivity.NewbusinessStart.OtherBranch" />
+        <activity android:name=".SettingActivity.SAccountActivity" />
+        <activity android:name=".AddActivity.ShowGirlActivity" />
+        <activity android:name=".AddActivity.EditDramaMapActivity" />
+        <activity android:name=".AddActivity.EditGirlsMapActivity" />
+        <activity android:name=".AddActivity.AddDramaMap" />
+        <activity android:name=".AddActivity.AddGirlMap" />
+        <activity android:name=".AddActivity.AddMainActivity" />
+        <activity android:name=".AddActivity.AddBoyMap" />
+        <activity android:name=".AddActivity.ShowBoyActivity" />
+        <activity android:name=".AddActivity.EditBoyMapActivity" />
+        <activity android:name=".SettingActivity.NewbusinessStart.NewBussStart" />
+        <activity android:name=".SettingActivity.NewbusinessStart.LoginActivity" />
+        <activity android:name=".SettingActivity.NewbusinessStart.SingupActivity" />
+        <activity android:name=".OtpLoging.LoginWithMobileNoActivity" />
+        <activity android:name=".SettingActivity.NewbusinessStart.EnterSchoolName" />
+        <activity android:name=".Activity.SpashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity> <!-- <activity android:name=".Activity.MainActivity" /> -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
